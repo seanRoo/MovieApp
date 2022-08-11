@@ -1,6 +1,9 @@
 # MovieApp
 
 A simple app that displays a list of results from the OMDb API based on a search query
+<img width="1391" alt="Screenshot 2022-08-11 at 12 54 42" src="https://user-images.githubusercontent.com/33811391/184128117-92a314bc-ed12-4590-b0a6-5d74866895d6.png">
+<img width="1389" alt="Screenshot 2022-08-11 at 12 55 07" src="https://user-images.githubusercontent.com/33811391/184128136-c0b1e809-2521-4a00-852a-dfcddc4950e6.png">
+<img width="594" alt="Screenshot 2022-08-11 at 12 55 40" src="https://user-images.githubusercontent.com/33811391/184128142-461eeef7-035f-488c-b070-455edce08506.png">
 
 # Getting Started with Create React App
 
