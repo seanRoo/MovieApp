@@ -26,7 +26,7 @@ const MovieListContainer = () => {
       {movies?.length ? (
         <div style={{ width: "90%" }}>
           <Typography variant="h3" className={classes.resultsText}>
-            Results <span>({movies?.length})</span>
+            Results ({movies?.length})
           </Typography>
           <MovieList movies={movies} />
         </div>

@@ -9,7 +9,14 @@ const MovieList = ({ movies }) => {
     <Grid container spacing={2} className={classes.movieListContainer}>
       {movies?.map((movie, index) => {
         return (
-          <Grid item xs={6} sm={3} md={3} key={`movie-${index}`}>
+          <Grid
+            item
+            xs={6}
+            sm={3}
+            md={3}
+            key={`movie-${index}`}
+            data-testid={`movie-${index}`}
+          >
             <Movie movie={movie} />
           </Grid>
         );

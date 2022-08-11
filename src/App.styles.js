@@ -70,8 +70,5 @@ export default makeStyles({
   resultsText: {
     marginBottom: 16,
     fontSize: 24,
-    "& span": {
-      fontWeight: "bold",
-    },
   },
 });

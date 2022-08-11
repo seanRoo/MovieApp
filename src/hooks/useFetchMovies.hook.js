@@ -7,14 +7,10 @@ const useFetchMovies = ({ query = "" }) => {
 
   useEffect(() => {
     if (query.substring(query.length - 1) !== " ") {
-      try {
-        fetch(FETCH_URL(query))
-          .then((res) => res)
-          .then((res) => res.json())
-          .then((res) => setMovies(res?.Search));
-      } catch (e) {
-        setError(true);
-      }
+      fetch(FETCH_URL(query))
+        .then((res) => res.json())
+        .then((res) => setMovies(res?.Search))
+        .catch((e) => setError(true));
     }
   }, [query]);
 
