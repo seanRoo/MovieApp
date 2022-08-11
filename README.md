@@ -1,6 +1,11 @@
 # MovieApp
 
 A simple app that displays a list of results from the OMDb API based on a search query
+
+## Stack
+- React
+- MaterialUI
+- React-icons
 <img width="1391" alt="Screenshot 2022-08-11 at 12 54 42" src="https://user-images.githubusercontent.com/33811391/184128117-92a314bc-ed12-4590-b0a6-5d74866895d6.png">
 
 ## Empty results message
