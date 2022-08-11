@@ -6,7 +6,7 @@ const useFetchMovies = ({ query = "" }) => {
   const [error, setError] = useState(false);
 
   useEffect(() => {
-    if (query.length > 1 && query.substring(query.length - 1) !== " ") {
+    if (query.substring(query.length - 1) !== " ") {
       try {
         fetch(FETCH_URL(query))
           .then((res) => res)
